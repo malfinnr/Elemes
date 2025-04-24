@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --vt-c-white: #ffffff;
+  --vt-c-white-soft: #f8f8f8;
+  --vt-c-white-mute: #f2f2f2;
+
+  --vt-c-text-primary: #000000;
+
+  --vt-c-dark: #333333;
+
+  --vt-c-light-1: #757575;
+
+  --vt-c-primary: #8bac3e;
+  --vt-c-primary-soft: #f0feeb;
+  --vt-c-primary-mute: #f9fff6;
+
+  --vt-c-aqua-blue: #40a2b1;
+  --vt-c-aqua-blue-soft: #e6f3f5;
+
+  --vt-c-indigo-blue: #405eb6;
+  --vt-c-indigo-blue-soft: #eaeefa;
+
+  --vt-c-magenta: #b23f74;
+  --vt-c-magenta-soft: #f9eef3;
+
+  --vt-c-lime: #a4b441;
+  --vt-c-lime-soft: #f3f7d9;
+
+  --vt-c-orange: #ff8412;
+}
+
+/* semantic color variables for this project */
+@theme inline {
+  --color-background: var(--vt-c-white);
+  --color-background-soft: var(--vt-c-white-soft);
+  --color-background-mute: var(--vt-c-white-mute);
+
+  --color-text: var(--vt-c-text-primary);
+
+  --color-dark: var(--vt-c-dark);
+
+  --color-light-1: var(--vt-c-light-1);
+
+  --color-primary: var(--vt-c-primary);
+  --color-primary-soft: var(--vt-c-primary-soft);
+  --color-primary-mute: var(--vt-c-primary-mute);
+
+  --color-aqua-blue: var(--vt-c-aqua-blue);
+  --color-aqua-blue-soft: var(--vt-c-aqua-blue-soft);
+
+  --color-indigo-blue: var(--vt-c-indigo-blue);
+  --color-indigo-blue-soft: var(--vt-c-indigo-blue-soft);
+
+  --color-magenta: var(--vt-c-magenta);
+  --color-magenta-soft: var(--vt-c-magenta-soft);
+
+  --color-lime: var(--vt-c-lime);
+  --color-lime-soft: var(--vt-c-lime-soft);
+
+  --color-orange: var(--vt-c-orange);
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  font-family:
+    "Rubik",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
